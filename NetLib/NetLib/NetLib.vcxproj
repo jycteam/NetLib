@@ -64,10 +64,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="DataSocket.cpp" />
+    <ClCompile Include="SocketClient.cpp" />
+    <ClCompile Include="SocketServer.cpp" />
+    <ClCompile Include="ListenSocket.cpp" />
     <ClCompile Include="Socket.cpp" />
     <ClCompile Include="SocketErrors.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="DataSocket.h" />
+    <ClInclude Include="IClient.h" />
+    <ClInclude Include="IServer.h" />
+    <ClInclude Include="SocketClient.h" />
+    <ClInclude Include="SocketServer.h" />
+    <ClInclude Include="ListenSocket.h" />
     <ClInclude Include="pub_header.h" />
     <ClInclude Include="Socket.h" />
     <ClInclude Include="SocketErrors.h" />

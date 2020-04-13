@@ -7,6 +7,15 @@
     <ClCompile Include="Socket.cpp">
       <Filter>socket</Filter>
     </ClCompile>
+    <ClCompile Include="DataSocket.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="ListenSocket.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketClient.cpp" />
+    <ClCompile Include="SocketServer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Socket.h">
@@ -19,6 +28,17 @@
       <Filter>socket</Filter>
     </ClInclude>
     <ClInclude Include="pub_header.h" />
+    <ClInclude Include="IClient.h" />
+    <ClInclude Include="IServer.h" />
+    <ClInclude Include="DataSocket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="ListenSocket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketClient.h" />
+    <ClInclude Include="SocketServer.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="socket">
