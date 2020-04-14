@@ -5,7 +5,10 @@ class System
 {
 public:
   System(){
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0e532d0159a3dfe201d7538a72b57c286c767740
     WSAStartup(MAKEWORD(2, 2), &m_WSAData);//windows need this
   }
 
@@ -16,7 +19,11 @@ protected:
   WSADATA m_WSAData;
 };
 
+<<<<<<< HEAD
 //System g_system;
+=======
+System g_system;
+>>>>>>> 0e532d0159a3dfe201d7538a72b57c286c767740
 
 
 
